@@ -7,7 +7,7 @@ description: "איך לתמחר פרויקט? איך למצוא לקוחות? א
 <ul class="article-list">
   {% for post in paginator.posts %}
   <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+    <a href="{ post.url | relative_url }" title="{ post.title }">
       <h5>
         {{ post.title }}
         {% include svg-icon.html icon="arrow-left" %}
@@ -24,7 +24,7 @@ description: "איך לתמחר פרויקט? איך למצוא לקוחות? א
   </li>
   {% endfor %}
   {% if paginator.total_pages > 1 %}
-  <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
+  <li class=" article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}"
       class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} פוסטים ישנים יותר</a>
