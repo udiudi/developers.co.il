@@ -1,0 +1,4 @@
+---
+slug: growth
+name: צמיחה
+---

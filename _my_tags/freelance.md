@@ -1,0 +1,4 @@
+---
+slug: freelance
+name: פרילאנס
+---
