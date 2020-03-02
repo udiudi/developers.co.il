@@ -5,7 +5,6 @@ name: מתכנתים עצמאיים
 paginate: 25
 url: https://developers.co.il
 
-
 # Optional settings
 
 about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
