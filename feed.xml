@@ -1,20 +1,67 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Developers.co.il</title>
+    <description></description>
+    <link>https://developers.co.il</link>
+    <atom:link href="https://developers.co.il/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>דברים מעניינים מהרשת - 09/02/2022</title>
+        <description>כמה לינקים מעניינים מהרשת</description>
+        <pubDate>Wed, 09 Feb 2022 00:00:00 +0200</pubDate>
+        <link>https://developers.co.il/posts/interesting-stuff-from-the-web</link>
+        <guid isPermaLink="true">https://developers.co.il/posts/interesting-stuff-from-the-web</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>תוכנית עסקית? חשיבה עסקית!</title>
+        <description>הבעיה עם תוכניות עסקיות, ואיך לגבש תוכנית פעולה עם חשיבה עסקית</description>
+        <pubDate>Wed, 06 May 2020 00:00:00 +0300</pubDate>
+        <link>https://developers.co.il/posts/business-plan-business-mind</link>
+        <guid isPermaLink="true">https://developers.co.il/posts/business-plan-business-mind</guid>
+      </item>
+    
+      <item>
+        <title>על קורונה, הקשיים ומה אפשר לעשות</title>
+        <description>וירוס הקורונה משפיע על כל העולם מבחינה בריאותית וגם מבחינה כלכלית. בארץ הממשלה מציעה תשלומי אבטלה עבור השכירים שנשלחו לחל&quot;ת, אבל כרגע אין את אותה המטרייה שתגן על העצמאים שבינינו.</description>
+        <pubDate>Mon, 16 Mar 2020 00:00:00 +0200</pubDate>
+        <link>https://developers.co.il/posts/covid19</link>
+        <guid isPermaLink="true">https://developers.co.il/posts/covid19</guid>
+      </item>
+    
+      <item>
+        <title>דברים מעניינים מהרשת - 15/3/2020</title>
+        <description>מאמרים, פודקאסטים ודברים מעניינים אחרים מהרשת שעושיים לעניין אתכם</description>
+        <pubDate>Sun, 15 Mar 2020 00:00:00 +0200</pubDate>
+        <link>https://developers.co.il/posts/interesting-web-stuff</link>
+        <guid isPermaLink="true">https://developers.co.il/posts/interesting-web-stuff</guid>
+      </item>
+    
+      <item>
+        <title>צמיחה כמתכנת עצמאי - חלק שני</title>
+        <description>בחלק הקודם של צמיחה כמתכנת עצמאי דיברנו על התמקצעות בנישה מסוימת (למשל מערכת למכון כושר או מאמן כושר), על פיתוח מוצר מדף במודל SaaS ולצבור מוניטין וניסיון בנישה כלשהי כך שכל עבודה שתבצעו תהיה מבוססת על יותר ויותר ניסיון והתמקצעות (למשל יישום של התאמות אישיות בSalesforce).&lt;br /&gt;
+בחלק הזה נדבר על דברים נוספים שאפשר לבצע, שגם כן ידרשו השקעה ראשונית שתניב לכם תשואה פעם אחר פעם. הרעיונות הבאים מגיעים מעולם יצירת תוכן.</description>
+        <pubDate>Mon, 24 Feb 2020 00:00:00 +0200</pubDate>
+        <link>https://developers.co.il/posts/growth-as-freelance-developer-2</link>
+        <guid isPermaLink="true">https://developers.co.il/posts/growth-as-freelance-developer-2</guid>
+      </item>
+    
+      <item>
+        <title>צמיחה כמתכנת עצמאי - חלק ראשון</title>
+        <description>הביקוש בישראל למתכנתים עצמאיים הוא גבוה. בין אם מדובר בחברות שמחפשות חיזוק לצוות קיים, יזמים שמקימים משהו חדש או עסקים קטנים שזקוקים לפתרון ממוקד. כמתכנתים בשוק כזה, יש לנו מגוון של דרכי צמיחה לפעילות העסקית שלנו, וכדאי להשקיע קצת זמן להבין את האפשרויות שלנו ומה ישרת את המטרות שלנו הכי טוב. בחלק הזה נתמקד בצמיחה בנישה ספציפית.</description>
+        <pubDate>Thu, 06 Feb 2020 00:00:00 +0200</pubDate>
+        <link>https://developers.co.il/posts/growth-as-freelance-developer</link>
+        <guid isPermaLink="true">https://developers.co.il/posts/growth-as-freelance-developer</guid>
+      </item>
+    
+      <item>
+        <title>איך להתחיל להיות מתכנת עצמאי?</title>
+        <description>הפוסט הבא נועד למתכנתים שרוצים לצאת לעצמאות ולהפוך להיות לפרילנסרים עצמאיים. המידע בפוסט יהיה שימושי עבור בעלי מקצועות אחרים בתחום: מעצבים, DevOps, מפתחים בפלטפורמות שונות כמו מובייל, מיינפריים, מומחי מסדי נתונים וכו'.</description>
+        <pubDate>Sun, 02 Feb 2020 00:00:00 +0200</pubDate>
+        <link>https://developers.co.il/posts/how-to-become-freelance-developer</link>
+        <guid isPermaLink="true">https://developers.co.il/posts/how-to-become-freelance-developer</guid>
+      </item>
+    
   </channel>
 </rss>
