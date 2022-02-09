@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "אתר למתכנתים עצמאיים"
+title: "Developers"
 description: "איך לתמחר פרויקט? איך למצוא לקוחות? איך להתחיל בכלל? מה לעשות? איך לצמוח כמתכנת עצמאי בישראל?"
 ---
 
@@ -26,8 +26,8 @@ description: "איך לתמחר פרויקט? איך למצוא לקוחות? א
   {% if paginator.total_pages > 1 %}
   <li class=" article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}"
-      class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} פוסטים ישנים יותר</a>
+    <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left"
+      %} פוסטים ישנים יותר</a>
     {% endif %}
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">פוסטים חדשים יותר

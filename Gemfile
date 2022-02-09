@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
 gem "autoprefixer-rails"
+gem "kramdown-parser-gfm"
 gem "jekyll-admin"
 gem "html-proofer"
 gem "image_optim"
-gem "jekyll", '3.8.6'
+gem "jekyll", '~> 3.8'
 gem "jekyll-archives"
 gem "jekyll-assets"
 gem "jekyll-paginate"
